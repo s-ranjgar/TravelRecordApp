@@ -13,5 +13,6 @@ namespace TravelRecordApp.Helpers
              
         public const string CLIENT_ID = "NWRKYTGITQ0S521CA5WS5XSIATNCFTTXYWOF14LTQJDNIXW3";
         public const string CLIENT_SECRET = "V4GOUBJZL4B2HCWYMVFWVQVDOLVZDSWIEO1AXJHDUMCJBFDE";
+
     }
 }

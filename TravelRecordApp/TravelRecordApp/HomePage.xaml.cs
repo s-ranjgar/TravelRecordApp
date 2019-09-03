@@ -15,7 +15,6 @@ namespace TravelRecordApp
         public HomePage()
         {
             InitializeComponent();
-
         }
 
         private void AddToolbarItem_OnClicked(object sender, EventArgs e)

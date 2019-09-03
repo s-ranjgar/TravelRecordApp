@@ -21,8 +21,10 @@ namespace TravelRecordApp
         {
             base.OnAppearing();
             var locator = CrossGeolocator.Current;
+            
             //var position = await locator.GetPositionAsync();
             //var venues = VenueLogic.GetVenues(position.Latitude, position.Longitude);
+
             var venues = await VenueLogic.GetVenues(37.422, -122.084);
             venueListView.ItemsSource = venues;
         }
